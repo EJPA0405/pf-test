@@ -8,8 +8,6 @@ function App() {
   const getTimeFromApi = async () => {
     try {
       let response = await fetch(apiURL + "/hora");
-      let data = await response.json();
-      console.log(data);
     } catch (error) {
       console.log(error);
     }
