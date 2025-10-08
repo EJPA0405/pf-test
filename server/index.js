@@ -18,7 +18,7 @@ app.listen(3000, async () => {
   try {
     const res = await pool.query("SELECT NOW()");
     console.log(
-      "Base de datos ocnectada y funcionando con fecha: " +
+      "Base de datos Conectada y funcionando con fecha: " +
         JSON.stringify(res.rows[0])
     );
   } catch (error) {
