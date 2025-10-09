@@ -5,9 +5,10 @@ function App() {
   const [count, setCount] = useState(0);
   const apiURL = import.meta.env.VITE_BACKEND_URL;
 
-  const getTimeFromApi = async () => {
+  const getTimeFromAPI = async () => {
     try {
       let response = await fetch(apiURL + "/hora");
+      return;
     } catch (error) {
       console.log(error);
     }
