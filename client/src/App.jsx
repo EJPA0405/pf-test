@@ -21,7 +21,6 @@ function App() {
       setDate(newDate);
     } catch (error) {
       alert("API no esta funcionando!");
-      console.log(error);
     }
   };
 
